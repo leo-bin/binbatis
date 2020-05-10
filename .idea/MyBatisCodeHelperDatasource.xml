@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="C:\MyGIT\技术合集\binbatis\testmybatis\src\main\java\com\bins\test\pojo" />
+          </list>
+        </option>
+        <option name="javaMapperPackage" value="com.bins.test.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.bins.test.pojo" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="binbatis" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="binbatis">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.bins.test.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.bins.test.pojo" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="mappers" />
+                  <option name="xmlPath" value="C:\MyGIT\技术合集\binbatis\testmybatis\src\main\resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="bin_batis:user_info">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="UserInfo" />
+                  <option name="moduleName" value="binbatis" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="mappers" />
+        <option name="xmlMapperPath" value="C:\MyGIT\技术合集\binbatis\testmybatis\src\main\resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

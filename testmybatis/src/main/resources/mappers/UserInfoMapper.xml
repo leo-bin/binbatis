@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.bins.test.dao.UserInfoMapper">
+
+    <insert id="insert" parameterType="com.bins.test.pojo.UserInfo">
+        insert into user_info(user_name, pass_word) VALUES (#{userName},#{passWord})
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from user_info where id=#{id}
+    </delete>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.bins.test.pojo.UserInfo">
+        select *
+        from user_info
+        where id = #{id}
+    </select>
+</mapper>
