@@ -10,7 +10,6 @@ import java.sql.*;
  * @apiNote 封装jdbc的工具包
  */
 public class JdbcUtil {
-
     /**
      * jdbc基础配置信息
      */
@@ -18,7 +17,6 @@ public class JdbcUtil {
     private static String url;
     private static String username;
     private static String password;
-
     /**
      * 连接实例，单例
      */

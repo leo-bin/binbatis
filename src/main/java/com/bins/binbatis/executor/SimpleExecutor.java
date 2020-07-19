@@ -20,13 +20,6 @@ import java.util.Map;
  */
 public class SimpleExecutor implements Executor {
 
-
-    /**
-     * #{userId}
-     */
-    private static final String regex1 = "#\\{([^}])*\\}";
-
-
     /**
      * 查询
      *
@@ -113,24 +106,6 @@ public class SimpleExecutor implements Executor {
             preparedStatement.setLong(1, (Long) parameter);
         }
     }
-
-
-
-/*    private void setParameter2Bean(PreparedStatement preparedStatement, Object parameter, Map<String, String> map) {
-        if (map != null && map.size() > 0) {
-            Field[] fields = parameter.getClass().getDeclaredFields();
-            try {
-                for (Field field : fields) {
-                    field.setAccessible(true);
-                    if (map.containsKey(field.getName())) {
-
-                    }
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }*/
 
 
     /**

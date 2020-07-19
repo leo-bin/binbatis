@@ -11,7 +11,6 @@ import java.util.List;
  * @apiNote sql执行器（其实就是封装了JDBC对数据库的操作的方法）
  */
 public interface Executor {
-
     /**
      * 查询接口
      *

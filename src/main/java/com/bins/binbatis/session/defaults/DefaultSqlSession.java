@@ -17,9 +17,7 @@ import java.util.List;
 public class DefaultSqlSession implements SqlSession {
     
     private final Configuration configuration;
-
     private Executor executor;
-
 
     public DefaultSqlSession(Configuration configuration) {
         super();

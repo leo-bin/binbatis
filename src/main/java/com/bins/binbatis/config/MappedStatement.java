@@ -11,22 +11,18 @@ public class MappedStatement {
      * sql字段所在的命名空间
      */
     private String namespace;
-
     /**
      * sql字段的id
      */
     private String id;
-
     /**
      * Sql执行结果类型的全限定名
      */
     private String resultType;
-
     /**
      * 具体的sql语句
      */
     private String sql;
-
 
     public String getNamespace() {
         return namespace;
